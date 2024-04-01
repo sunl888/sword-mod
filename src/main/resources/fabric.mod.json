@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "swordmod",
+  "version": "${version}",
+  "name": "sword-mod",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/sunl888/sword-mod"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/swordmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.sunl.swordmod.client.SwordModClient"
+    ],
+    "main": [
+      "com.sunl.swordmod.SwordMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
